@@ -3,7 +3,7 @@ let myname = document.querySelector("#myName") // uyarıya girdiğimiz değerin 
 myname.innerHTML=kulaniciadi // son olarak verilen değeri yazdırıyoruz
 
 function zaman ()
-{   // burda zaman atadık sadce bunu verseydik çok fazla detay olup ödevin istediği olmazdı
+{   // burda zaman atadık sadce bunu verseydik çok fazla detay olup ödevin istediği olmazdı anlık değerini vermemizin sebebi diğer atamaların burdan bilgi çekmesini sağlamak
     let anlık = new Date();  
     // saat ekledik
     let saat = anlık.getHours(); 
